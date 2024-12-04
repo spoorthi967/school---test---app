@@ -1,0 +1,155 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------Body Styling----------------------- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 3.0 ;    
+}
+
+/*--------------------- Header Styling ---------------------------*/
+header {
+    background-color: #8b6f4e;
+    color: #fff;
+    padding: 5px 5px;
+    line-height: 20px;
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+/*----------------------Nav bar ---------------------------------- */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color:  #8b6f4e;
+     padding: 10px 0; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 10px;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------------Login page---------------------------------  */
+.login-container{
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/*  */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8b6f4e;
+}
+/* ----------------username and password--------------------------- */
+
+.login-container input[type="text"],
+.login-container input[type="password"] 
+{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* ------------------login button -------------------------------- */
+
+.login-container input[type="submit"] 
+{
+    width: 40% ;
+    padding: 5px 5px;
+    background-color: #8b6f4e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* --------------------register new user button---------------------- */
+
+.login-container input[type="submit"]:hover 
+{
+    background-color: #8b6f4e;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button {
+    background-color: #8b6f4e;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;}
+button:hover {
+    background-color: #6f5036;} 
+
+/* -------------------------Footer Styling------------------------------- */
+
+footer {
+    background-color: #8b6f4e;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+footer div {
+    flex: 1;
+    min-width:100px; /* Ensure each column has a minimum width */
+    margin: 10px;
+}
+/* ---------------------for all h3 tags iam giving styling------------------------- */
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px #fff; /* Adds a divider under each heading */
+    padding-bottom: 5px;
+}
+
+footer ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+}
+
+footer ul li {
+    margin-bottom: 2px; /* Adds space between list items */
+    font-size: 14px;
+}
+
+footer ul li:hover {
+    text-decoration:underline; /* Adds underline effect on hover */
+    cursor: pointer;
+}
+
+
+/*----------------------------Additional Styling for Links and Buttons------------ */
+
